@@ -19,9 +19,10 @@
             var vel = Number(txtv.value)
             res.innerHTML = `<p>Sua velocidade atual é <strong>${vel} Km/h</strong></p>`
             if (vel > 60) {
-                res.innerHTML += `<p>Você está <strong>MULTADO</strong> por excesso de velocidade!</p>`
+                res.innerHTML = res.innerHTML +  `<p>Você está <strong>MULTADO</strong> por excesso de velocidade!</p>` // Fiz da forma sem simplificar para ter os dois exemplos no exercício             
             }
-             res.innerHTML += `<p>Dirija sempre com cinto de segurança!</p>`
+                res.innerHTML += `<p>Dirija sempre com cinto de segurança!</p>`
+             
         }
     </script>
 </body>
