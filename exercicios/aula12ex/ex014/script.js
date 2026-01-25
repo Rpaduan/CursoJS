@@ -4,7 +4,7 @@ var img = window.document.getElementById('imagem')
 var data = new Date()
 var hora = data.getHours()
 var minuto = data.getMinutes()
-//var hora = 7
+//var hora = 19
 msg.innerHTML = `Agora são ${hora} horas e ${minuto} minutos.`
 if (hora >= 6 && hora < 12) {
     //BOM DIA!
