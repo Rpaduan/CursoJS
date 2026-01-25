@@ -4,9 +4,9 @@ var img = window.document.getElementById('imagem')
 var data = new Date()
 var hora = data.getHours()
 var minuto = data.getMinutes()
-//var hora = 10
+//var hora = 7
 msg.innerHTML = `Agora são ${hora} horas e ${minuto} minutos.`
-if (hora >= 0 && hora < 12) {
+if (hora >= 6 && hora < 12) {
     //BOM DIA!
     img.src = 'manha.png'
     document.body.style.background = '#80C3F7'
