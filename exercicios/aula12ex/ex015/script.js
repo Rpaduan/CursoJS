@@ -13,6 +13,7 @@ function verificar() {
         img.setAttribute('id', 'foto')
         if (fsex[0].checked) {
             gênero = 'Homem'
+            document.body.style.background = 'rgb(70, 142, 236)'
             if (idade >= 0 && idade < 12) {
                 //Criança
                 img.setAttribute('src', 'foto-crianca-m.png')
