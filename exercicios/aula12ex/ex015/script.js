@@ -30,6 +30,7 @@ function verificar() {
                 
         } else if (fsex[1].checked) {
             gênero = 'Mulher'
+            document.body.style.background = 'rgb(247, 183, 193)'
             if (idade >= 0 && idade < 12) {
                 //Criança
                 img.setAttribute('src', 'foto-crianca-f.png')
@@ -43,6 +44,7 @@ function verificar() {
                 //Idoso
                 img.setAttribute('src', 'foto-idoso-f.png')
             }
+            
         }
         res.style.textAlign = 'center'
         res.innerHTML = `Detectanos ${gênero} com ${idade} anos.`
